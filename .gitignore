@@ -1,0 +1,5 @@
+node_modules
+cypress/Payever_Fashion-report
+cypress/screenshots
+package-lock.json
+.idea

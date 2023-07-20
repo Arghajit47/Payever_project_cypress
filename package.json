@@ -1,0 +1,19 @@
+{
+  "name": "payever_website_testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:headed": "cypress run --config-file payeverFashion-config.json --browser chrome --headed",
+    "test": "cypress run --config-file payeverFashion-config.json --browser chrome"
+  },
+  "author": "Arghajit Singha",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.11.10",
+    "cypress": "^9.5.1",
+    "cypress-mochawesome-reporter": "^3.3.0",
+    "cypress-xpath": "^2.0.1",
+    "typescript": "^5.1.6"
+  }
+}
